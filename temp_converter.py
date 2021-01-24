@@ -47,7 +47,7 @@ class TempConverterInterface(wx.Frame):
         panel.SetSizer(hbox)
 
     def ShowValueErrorMessage(self):
-        wx.MessageBox('You entered an invalid value. Try again.', 'Value Error',
+        wx.MessageBox('You entered an invalid value.', 'Value Error',
                       style=wx.OK | wx.ICON_ERROR)
 
     def ShowTypeErrorMessage(self):
