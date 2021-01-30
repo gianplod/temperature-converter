@@ -30,6 +30,6 @@ def temperature_converter(value, convert_from, convert_to):
 
     converters = {"°C": celsius_converter(value, convert_to),
                   "°F": fahrenheit_converter(value, convert_to),
-                  "°K": kelvin_converter(value, convert_to)
+                  "K": kelvin_converter(value, convert_to)
                   }
     return converters[convert_from]
